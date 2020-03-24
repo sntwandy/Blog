@@ -201,3 +201,72 @@ footer p {
     color: white;
     margin-top: 30px;
 }
+
+.blogpost-img-container {
+    padding: 0px 50px 40px;
+}
+
+.blogpost-img-container img {
+    width: 100%;
+}
+
+.blogpost-main-container {
+    padding: 0px 50px 40px;
+}
+
+.blogpost-main-container h3 {
+    border-bottom: 1px solid #cdd2da;
+    padding-bottom: 20px;
+}
+
+.blogpost-main-container article h1 {
+    font-size: 35px;
+}
+
+.contact-main-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    min-height: 200px;
+    background-color: #e6e9ed;
+}
+
+.contact-main-container div img {
+    width: 100px;
+}
+
+.contact-main-container .contact-left-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.contact-main-container .contact-left {
+    width: 50%;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.contact-main-container .contact-left a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid black;
+    padding-top: 30px;
+}
+
+.contact-main-container .contact-right-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.contact-main-container .contact-right {
+    width: 50%;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.contact-main-container .contact-right a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid black;
+}
