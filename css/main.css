@@ -110,6 +110,10 @@ nav .profile-link a {
     border-radius: 5px;
 }
 
+.home-main-button:hover {
+    background-color: #078684;
+}
+
 .home-main-button a {
     font-weight: 700;
     font-size: 18px;
