@@ -142,8 +142,16 @@ nav .profile-link a {
     grid-template-rows: 2fr;
 }
 
+.profile {
+    grid-template-columns: 1fr 2fr;
+}
+
 .blogs-news-img-container {
     grid-column: 1;
+}
+
+.blogs-news-img-container {
+    margin: 0px;
 }
 
 .blogs-news-img-container img {
